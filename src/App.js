@@ -1,22 +1,17 @@
-import logo from './logo.svg';
+import logo from './KloudPodLogo.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+        <p className="title">
+          Welcome to Kloudpod
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src={logo} className="App-logo" alt="logo" />
+        <p className="note">
+          Learning CI CD set up of react application
+        </p>
       </header>
     </div>
   );
